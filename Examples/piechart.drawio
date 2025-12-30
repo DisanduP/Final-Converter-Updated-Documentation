@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="title" value="Pie Chart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+      <mxGeometry x="0" y="0" width="500" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="slice_0" value="66%" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;startAngle=0;endAngle=0.655;fillColor=#FF6384;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="50" width="300" height="300" as="geometry">
+        <mxPoint x="93" y="49" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_box_0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6384;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="350" y="50" width="20" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="legend_text_0" value="Chrome: 65.5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="50" width="150" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="slice_1" value="19%" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;startAngle=0.655;endAngle=0.8480000000000001;fillColor=#36A2EB;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="50" width="300" height="300" as="geometry">
+        <mxPoint x="-105" y="-1" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_box_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#36A2EB;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="350" y="80" width="20" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="legend_text_1" value="Safari: 19.3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="80" width="150" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="slice_2" value="7%" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;startAngle=0.8480000000000001;endAngle=0.9220000000000002;fillColor=#FFCE56;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="50" width="300" height="300" as="geometry">
+        <mxPoint x="-69" y="-79" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_box_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE56;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="350" y="110" width="20" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="legend_text_2" value="Firefox: 7.4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="110" width="150" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="slice_3" value="5%" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;startAngle=0.9220000000000002;endAngle=0.9700000000000002;fillColor=#4BC0C0;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="50" width="300" height="300" as="geometry">
+        <mxPoint x="-35" y="-99" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_box_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4BC0C0;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="350" y="140" width="20" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="legend_text_3" value="Edge: 4.8" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="140" width="150" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="slice_4" value="3%" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;startAngle=0.9700000000000002;endAngle=1.0000000000000002;fillColor=#9966FF;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="50" width="300" height="300" as="geometry">
+        <mxPoint x="-10" y="-105" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_box_4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9966FF;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="350" y="170" width="20" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="legend_text_4" value="Other: 3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="170" width="150" height="20" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

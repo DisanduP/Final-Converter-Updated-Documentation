@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-12-30T09:21:12.546Z" agent="Mermaid-Mindmap-Converter" version="21.0.0">
+  <diagram name="Mindmap" id="diagram_1767086472550">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="node0" value="Project Planning" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=14;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="855" width="200" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="node1" value="Timeline" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="745" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="node2" value="Phase 1" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="632.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node3" value="Phase 2" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="752.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node4" value="Phase 3" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="872.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node5" value="Resources" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="865" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="node6" value="Team" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="752.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node7" value="Budget" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="872.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node8" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="992.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node9" value="Risks" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="775" y="985" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="node10" value="Technical" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="872.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node11" value="Budget" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="992.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="node12" value="Timeline" style="rounded=1;whiteSpace=wrap;html=1;overflow=hidden;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1112.5" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn2" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node0" target="node1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn3" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node1" target="node2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn4" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node1" target="node3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn5" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node1" target="node4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn6" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node0" target="node5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn7" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node5" target="node6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn8" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node5" target="node7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn9" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node5" target="node8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn10" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="node0" target="node9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn11" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="node9" target="node10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn12" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="node9" target="node11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn13" style="edgeStyle=entityRelationEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="node9" target="node12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

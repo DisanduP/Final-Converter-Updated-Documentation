@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" type="device">
+  <diagram name="Page-1" id="diagramIdx">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Company History" style="text;fontSize=24;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="400" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_100" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="95" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_101" value="2010" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="315" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_103" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=1;" edge="1" parent="1" source="dot_100" target="evt_102">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_102" value="Company founded by John Smith" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_104" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="295" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="line_105" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1" source="dot_100" target="dot_104">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_106" value="2012" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="265" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_108" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=0;" edge="1" parent="1" source="dot_104" target="evt_107">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_107" value="First major product launch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_109" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="line_110" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1" source="dot_104" target="dot_109">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_111" value="2015" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="315" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_113" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=1;" edge="1" parent="1" source="dot_109" target="evt_112">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_112" value="Series A funding - $5M" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_114" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="695" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="line_115" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1" source="dot_109" target="dot_114">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_116" value="2018" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670" y="265" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_118" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=0;" edge="1" parent="1" source="dot_114" target="evt_117">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_117" value="International expansion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_119" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="895" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="line_120" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1" source="dot_114" target="dot_119">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_121" value="2021" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="870" y="315" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_123" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=1;" edge="1" parent="1" source="dot_119" target="evt_122">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_122" value="IPO on NASDAQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dot_124" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="295" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="line_125" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1" source="dot_119" target="dot_124">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_126" value="2024" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="265" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="conn_128" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#666666;entryX=0.5;entryY=0;" edge="1" parent="1" source="dot_124" target="evt_127">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="evt_127" value="Launches AI-powered platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;shadow=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="120" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
