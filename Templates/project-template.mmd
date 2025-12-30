@@ -1,0 +1,44 @@
+# Project Management Templates
+
+## Gantt Chart Template
+gantt
+    title "Project Timeline Template"
+    dateFormat YYYY-MM-DD
+
+    section Planning
+    Requirements Gathering :done, req, 2024-01-01, 2024-01-05
+    Project Planning :active, plan, after req, 3d
+    Resource Allocation :pending, resource, after plan, 2d
+
+    section Development
+    Sprint 1 :pending, sprint1, after resource, 14d
+    Sprint 2 :pending, sprint2, after sprint1, 14d
+    Sprint 3 :pending, sprint3, after sprint2, 14d
+
+    section Testing
+    QA Testing :pending, qa, after sprint3, 7d
+    User Acceptance Testing :pending, uat, after qa, 5d
+
+    section Deployment
+    Production Deployment :pending, deploy, after uat, 2d
+    Go-Live Support :pending, support, after deploy, 30d
+
+## Timeline Template
+timeline
+    title "Project Milestones Template"
+
+    2024-Q1 : Project Initiation
+               : Team assembly complete
+               : Initial planning finished
+    2024-Q2 : Development Phase
+               : Core features implemented
+               : First prototype delivered
+    2024-Q3 : Testing & Refinement
+               : User feedback collected
+               : Performance optimization
+    2024-Q4 : Launch Preparation
+               : Final testing completed
+               : Marketing campaign ready
+    2025-Q1 : Product Launch
+               : Official release
+               : Customer onboarding

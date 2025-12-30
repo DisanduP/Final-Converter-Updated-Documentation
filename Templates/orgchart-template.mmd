@@ -1,0 +1,43 @@
+# Organizational Chart Template
+
+graph TD
+    CEO[John Smith<br/>Chief Executive Officer] --> CTO[Sarah Johnson<br/>Chief Technology Officer]
+    CEO --> CFO[Mike Davis<br/>Chief Financial Officer]
+    CEO --> CMO[Emma Wilson<br/>Chief Marketing Officer]
+
+    CTO --> DevDir[Alex Chen<br/>Director of Development]
+    CTO --> OpsDir[Rachel Brown<br/>Director of Operations]
+
+    DevDir --> FrontendMgr[Tom Wilson<br/>Frontend Manager]
+    DevDir --> BackendMgr[Lisa Garcia<br/>Backend Manager]
+
+    FrontendMgr --> FE1[React Developer]
+    FrontendMgr --> FE2[Vue Developer]
+    FrontendMgr --> FE3[UI/UX Designer]
+
+    BackendMgr --> BE1[Node.js Developer]
+    BackendMgr --> BE2[Python Developer]
+    BackendMgr --> BE3[Database Admin]
+
+    OpsDir --> DevOpsMgr[James Lee<br/>DevOps Manager]
+    DevOpsMgr --> DevOps1[DevOps Engineer]
+    DevOpsMgr --> DevOps2[Cloud Engineer]
+
+    CFO --> FinMgr[Amy Patel<br/>Finance Manager]
+    FinMgr --> Acc1[Accountant]
+    FinMgr --> Acc2[Financial Analyst]
+
+    CMO --> MktMgr[David Kim<br/>Marketing Manager]
+    MktMgr --> Mkt1[Digital Marketing]
+    MktMgr --> Mkt2[Content Creator]
+    MktMgr --> Mkt3[Brand Designer]
+
+    %% Styling
+    classDef executive fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef manager fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef staff fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+
+    class CEO executive
+    class CTO,CFO,CMO manager
+    class DevDir,OpsDir,FinMgr,MktMgr,DevOpsMgr,FrontendMgr,BackendMgr manager
+    class FE1,FE2,FE3,BE1,BE2,BE3,DevOps1,DevOps2,Acc1,Acc2,Mkt1,Mkt2,Mkt3 staff

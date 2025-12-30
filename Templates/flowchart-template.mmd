@@ -1,0 +1,28 @@
+# Flowchart Template
+
+graph TD
+    A[Start: Process Name] --> B{Decision Point?}
+
+    B -->|Yes| C[Action 1]
+    B -->|No| D[Action 2]
+
+    C --> E[Process Step]
+    D --> E
+
+    E --> F{Another Decision?}
+    F -->|Continue| G[Next Step]
+    F -->|End| H[End Process]
+
+    G --> I[Final Step]
+    I --> J([Success])
+
+    H --> K([Complete])
+
+    %% Styling (optional)
+    classDef processClass fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef decisionClass fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef terminalClass fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+
+    class A,C,D,E,G,I processClass
+    class B,F decisionClass
+    class J,K terminalClass

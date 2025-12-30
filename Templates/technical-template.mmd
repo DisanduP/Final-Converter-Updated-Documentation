@@ -1,0 +1,56 @@
+# Technical Diagram Templates
+
+## Sequence Diagram Template
+sequenceDiagram
+    participant User
+    participant Frontend
+    participant API
+    participant Database
+    participant Cache
+
+    User->>Frontend: User Action (click/login/etc.)
+    Frontend->>API: API Request
+    API->>Cache: Check Cache
+    Cache-->>API: Cache Miss
+    API->>Database: Query Data
+    Database-->>API: Return Results
+    API-->>Cache: Store in Cache
+    API-->>Frontend: API Response
+    Frontend-->>User: Update UI
+
+    Note over User,Database: Complete Request Flow
+
+## Mindmap Template
+mindmap
+  root((Project Planning))
+    ::icon(fa fa-rocket)
+
+    Scope & Objectives
+      ::icon(fa fa-bullseye)
+        Business Goals
+        Success Metrics
+        Timeline
+
+    Technical Requirements
+      ::icon(fa fa-cogs)
+        Technology Stack
+        Architecture
+        Infrastructure
+
+    Team & Resources
+      ::icon(fa fa-users)
+        Team Members
+        Skills Required
+        Training Needs
+
+    Risk Management
+      ::icon(fa fa-exclamation-triangle)
+        Technical Risks
+        Business Risks
+        Mitigation Plans
+
+    Success Factors
+      ::icon(fa fa-trophy)
+        Quality Standards
+        Delivery Milestones
+        Stakeholder Satisfaction
